@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #6495ED; -fx-border-color: #000000;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.notebook.DaryController">
+   <children>
+      <ListView layoutX="336.0" layoutY="35.0" prefHeight="320.0" prefWidth="250.0" />
+      <Button layoutX="30.0" layoutY="225.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="74.0" style="-fx-background-color: #FF0000;" text="Удалить" />
+      <Button layoutX="220.0" layoutY="225.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="74.0" style="-fx-background-color: #0000FF;" text="Добавить" />
+      <TextField layoutX="28.0" layoutY="82.0" prefHeight="134.0" prefWidth="266.0" />
+      <Label layoutX="30.0" layoutY="35.0" prefHeight="44.0" prefWidth="81.0" text="Имя">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

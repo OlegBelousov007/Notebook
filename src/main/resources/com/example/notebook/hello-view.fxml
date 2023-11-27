@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="343.0" prefWidth="539.0" style="-fx-background-color: #6495ED; -fx-border-color: #000000;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.notebook.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label alignment="CENTER" layoutX="174.0" layoutY="117.0" style="-fx-background-color: #8da8b9;" text="Введите номер телефона" textAlignment="CENTER">
+      <font>
+         <Font name="Times New Roman" size="18.0" />
+      </font>
+   </Label>
+   <Button layoutX="365.0" layoutY="275.0" mnemonicParsing="false" onAction="#onLoginBtnClick" prefHeight="50.0" prefWidth="96.0" style="-fx-background-color: #8da8b9;" text="Отправить" textAlignment="CENTER">
+      <font>
+         <Font name="Times New Roman" size="14.0" />
+      </font>
+   </Button>
+   <Label layoutX="47.0" layoutY="36.0" text="Notebook" textFill="#140202">
+      <font>
+         <Font name="Times New Roman" size="22.0" />
+      </font>
+   </Label>
+   <PasswordField fx:id="passwordTextFild" layoutX="143.0" layoutY="184.0" onAction="#passwordTextFild" prefHeight="40.0" prefWidth="254.0" />
+   <Label fx:id="errorLable" layoutX="47.0" layoutY="283.0" prefHeight="40.0" prefWidth="172.0" />
+</AnchorPane>
